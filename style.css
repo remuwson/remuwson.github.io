@@ -67,3 +67,9 @@ body {
             border: 3px solid #0077cc;
             background-color: #0077cc;
         }
+        p:hover{
+            color: lightgreen;
+        }
+        p::first-letter{
+            color: black;
+        }
