@@ -58,3 +58,9 @@ body {
             transform: scale(1.05);
             transition: ease-in-out 0.5s;
         }
+        .photos{
+            box-shadow: 0.5 0.5 0.5 black;
+        }
+        hr{
+            background-color: #555;
+        }
