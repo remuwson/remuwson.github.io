@@ -68,7 +68,7 @@ body {
             background-color: #0077cc;
         }
         p:hover{
-            color: lightgreen;
+            color: darkred;
         }
         p::first-letter{
             color: black;
