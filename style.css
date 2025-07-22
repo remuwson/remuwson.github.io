@@ -38,7 +38,7 @@ body {
         main div {
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            
             padding: 10px;
             max-width: 400px;
             text-align: center;
@@ -56,10 +56,11 @@ body {
         }
         .photos:hover{
             transform: scale(1.05);
-            transition: ease-in-out 0.5s;
+            transition: 1s;
         }
         .photos{
             box-shadow: 10px 10px 10px black;
+            transition: 1s;
         }
         hr{
             width: 90%;
