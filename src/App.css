@@ -40,3 +40,6 @@
 .read-the-docs {
   color: #888;
 }
+#liczby1, #liczby2, #liczby3{
+  display: flex;
+}
