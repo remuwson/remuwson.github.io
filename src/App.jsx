@@ -12,17 +12,14 @@ function App() {
       <div>
         <h1>Calculator</h1>
 
-        {/* Nawigacja do podstron */}
         <nav>
           <Link to="/">Main Page</Link> |
           <Link to="/test">Test</Link>
         </nav>
 
         <Routes>
-          {/* Strona testowa */}
           <Route path="/test" element={<Test />} />
 
-          {/* Strona główna – zawartość jak u Ciebie */}
           <Route path="/" element={
             <main>
               <div id='buttons'>
